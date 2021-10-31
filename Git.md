@@ -66,8 +66,10 @@ $git config --list --system
 2. git log #查看git的日志
 3. git log --oneline ->简洁的方式呈现日志
 4. git log -n2 --oneline # 查看最近2条日志
-5. git branch -v #查看本地有多少分支
-6. git checkout -b temp # 创建新的分支temp
-7. pwd 查看当前路径
-8. git reset --hard #清除暂存区和工作区的清理
+5. git log --all -graph #图形化的方式显示所有日志
+6. git branch -v #查看本地有多少分支
+7. git checkout -b temp # 创建新的分支temp
+8. git checkout branchName #切换分支
+9. pwd 查看当前路径
+10. git reset --hard #清除暂存区和工作区的清理
 
