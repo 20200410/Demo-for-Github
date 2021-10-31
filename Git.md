@@ -73,3 +73,16 @@ $git config --list --system
 9. pwd 查看当前路径
 10. git reset --hard #清除暂存区和工作区的清理
 
+
+
+### 本地仓库同步到Github
+
+- git remote add github git@github.com:20200410/Demo-for-Github.git
+    - git remote add 是用github替代后面的SSH协议地址
+
+- git remote -v
+    - 什么意思？
+
+- git push github --all
+    - 什么意思？
+
